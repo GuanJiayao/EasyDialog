@@ -208,6 +208,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             case R.id.btnBottomLeft:
                 new EasyDialog(MainActivity.this)
                         .setLayoutResourceId(R.layout.layout_tip_text)
+                        .setMessage(R.id.tx_message,"爱你不是两三天")
                         .setBackgroundColor(MainActivity.this.getResources().getColor(R.color.background_color_pink))
                         .setLocationByAttachedView(btnBottomLeft)
                         .setGravity(EasyDialog.GRAVITY_TOP)
